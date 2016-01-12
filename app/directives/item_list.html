@@ -1,0 +1,5 @@
+<ion-list>
+  <ion-item *ngFor="#item of items" (click)="itemSelected(item)" class="list-item">
+    {{item.name}} is {{item.age}} old
+  </ion-item>
+</ion-list>
